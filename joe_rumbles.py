@@ -1,9 +1,7 @@
 import telebot
-import logging
+from config import Token
 
-logging.basicConfig(level=logging.INFO)
-
-bot = telebot.TeleBot('7463771495:AAGZrXOrp_z5QFQqvsgEHXhEkNegZTaWq5g')
+bot = telebot.TeleBot(Token)
 
 
 @bot.message_handler(commands=["start"])
