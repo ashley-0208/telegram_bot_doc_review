@@ -1,10 +1,11 @@
 import telebot
-import logging
+# import logging
+from telegram import config
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-logging.basicConfig(level=logging.INFO)
+# logging.basicConfig(level=logging.INFO)
 
-bot = telebot.TeleBot('7463771495:AAGZrXOrp_z5QFQqvsgEHXhEkNegZTaWq5g')
+bot = telebot.TeleBot(config)
 
 # defining and adding buttons
 button1 = InlineKeyboardButton(text="google", url="https://google.com")
