@@ -1,0 +1,5 @@
+# senstive content
+/config.py
+*.pyc
+__pycache__/
+.env
