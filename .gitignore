@@ -2,4 +2,5 @@
 /config.py
 *.pyc
 __pycache__/
-.env!/eaca89_ep11.py
+eaca89_ep11.py
+*.py[cod]
