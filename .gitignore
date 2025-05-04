@@ -2,4 +2,4 @@
 /config.py
 *.pyc
 __pycache__/
-.env
+.env!/eaca89_ep11.py
